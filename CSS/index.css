@@ -1,0 +1,12 @@
+.hero{
+  background: url(../P/index.jpg) no-repeat 50% 60% fixed;
+}
+
+.content-wrapper{
+    width:80%;
+      padding: 1em 10%;
+}
+
+.titlumare{
+ color: white;
+}

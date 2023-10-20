@@ -1,0 +1,89 @@
+#h2,#h3{
+  font-size: 20px;
+  font-family: 'Exo 2', sans-serif;
+}
+
+label,input{
+  display: inline-block;
+}
+
+.login {
+  text-align: center;
+}
+
+input[type=text], input[type=password], input[type=name] {
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=age] {
+  width: 10%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+#buton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 40px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+#buton:hover {
+    opacity:1;
+}
+
+.signupbtn {
+  float: center;
+  width: 10%;
+}
+
+.container {
+    padding: 20px;
+}
+
+.column7 {
+  float: left;
+  width: 50%;
+}
+
+.column8{
+  float: left;
+  width: 30%;
+}
+
+#row7:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#row8:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#email{
+  width: 40%;
+}
+
+#serviciima{
+  width: 50%;
+  height: 30px;
+}
+
+#h3,#serviciima{
+  display: inline-block;
+  margin-left: 10px;
+}

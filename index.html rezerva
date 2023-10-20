@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Hero idea</title>
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../CSS/effecte.css">
+  <link rel="stylesheet" href="../CSS/text.css">
+  <link rel="stylesheet" href="../CSS/aranjari.css">
+  <script type="text/javascript" src="../js/ceas.js"></script>
+</head>
+
+<body onload="startTime()">
+  <nav>
+  <div class="nav-bg"><h6 id="txt"><h6></div>
+  <ul>
+    <li><a href="HTML/servicii.html">Servicii</a></li>
+    <li><a href="HTML/contact.html">Contact</a></li>
+    <li><a href="HTML/cont.html">Cont</a></li>
+  </ul>
+</nav>
+<div class="hero">
+  <h1></h1>
+</div>
+<div class="content-wrapper">
+
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script src="../JS/index.js"></script>
+
+</body>
+</html>

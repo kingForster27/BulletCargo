@@ -1,0 +1,99 @@
+.hero {
+  background: url(../P/subaru.jpg) no-repeat 50% 100% fixed;
+}
+
+.login {
+  text-align: center;
+}
+
+.content-wrapper{
+    width:80%;
+      padding: 1em 10%;
+}
+
+input[type=text], input[type=password], input[type=name] {
+    width: 30%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.b{
+  color: white;
+  font-size: 20px;
+}
+
+input[type=age] {
+  width: 10%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 40px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+button:hover {
+    opacity:1;
+}
+
+.signupbtn {
+  float: center;
+  width: 120px;
+}
+
+.container {
+    padding: 20px;
+}
+
+#holo2 {
+  padding-left: 20px;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 60px;
+  -webkit-animation: color-change 3s infinite;
+  -moz-animation: color-change 3s infinite;
+  -o-animation: color-change 3s infinite;
+  -ms-animation: color-change 3s infinite;
+  animation: color-change 3s infinite;
+}
+@-webkit-keyframes color-change {
+  0% { color: red; }
+  25% { color: blue; }
+  75% { color: lime; }
+  100% { color: red; }
+}
+@-moz-keyframes color-change {
+  0% { color: red; }
+  25% { color: blue; }
+  75% { color: lime; }
+  100% { color: red; }
+}
+@-ms-keyframes color-change {
+  0% { color: red; }
+  25% { color: blue; }
+  75% { color: lime; }
+  100% { color: red; }
+}
+@-o-keyframes color-change {
+  0% { color: red; }
+  25% { color: blue; }
+  75% { color: lime; }
+  100% { color: red; }
+}
+@keyframes color-change {
+  0% { color: red; }
+  25% { color: blue; }
+  75% { color: lime; }
+  100% { color: red; }
+}

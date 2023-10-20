@@ -1,0 +1,64 @@
+.column {
+  float: left;
+  width: 50%;
+}
+
+#row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.siguranta{
+  margin-left: 30px;
+}
+
+.contact{
+  margin-left: 20%;
+}
+
+#row1 {
+  background: rgb(33, 20, 19);
+  width: 90%;
+  margin-left:5%;
+  margin-bottom: 2%;
+  border-bottom:10px ridge #00ff1d;
+}
+
+#row2{
+  background: #772525;
+  width: 90%;
+  margin-left:5%;
+  margin-bottom: 2%;
+  border-bottom:10px ridge #00ff1d;
+}
+
+#row3{
+  background: #c39052;
+  width: 90%;
+  margin-left:5%;
+  margin-bottom: 2%;
+  border-bottom:10px ridge #00ff1d;
+}
+
+#produs{
+  width: 50%;
+}

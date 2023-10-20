@@ -1,0 +1,73 @@
+#body1,#body2,#body3{
+  float: left;
+  width: 40%;
+  height: 650px;
+  margin-left: 10px;
+  margin: 1%;
+  border: 10px groove #18D900;
+  border-radius: 11px;
+  -webkit-box-shadow: 15px 10px 18px 7px rgba(0,0,0,0.75);
+  -moz-box-shadow: 15px 10px 18px 7px rgba(0,0,0,0.75);
+  box-shadow: 15px 10px 18px 7px rgba(0,0,0,0.75);
+  margin-top: 1%;
+  background: black;
+}
+
+#body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h3 {
+  font-size: 50px;
+  font-family: fantasy;
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+}
+
+
+.flexbuton {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.button1,.button2 {
+  border-radius: 4px;
+  background-color: lime;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+
+}
+
+.button1 span,.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after,.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span,.button2:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after,.button2:hover span {
+  opacity: 1;
+  right: 0;
+}
